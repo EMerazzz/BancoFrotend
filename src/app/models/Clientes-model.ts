@@ -3,7 +3,7 @@ export class clientes{
      usuario: string = '';
      primerNombre: string = '';
      segundoNombre: string = '';
-     primerApelido: string = '';
+     primerApellido: string = '';
      segundoApellido: string = '';
      telefono: string = '';
      direccion: string = '';

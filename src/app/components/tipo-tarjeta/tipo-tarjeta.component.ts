@@ -28,9 +28,9 @@ export class TipoTarjetaComponent implements OnInit{
     this.list();
 
     this.formTipoTarjeta = this.formBuilder.group({
-      codTipoTarjeta: [''],
-      nombreTarjeta: [''],
-      restriccionCredito: [''],
+      codTipoTarjeta: [null],
+      nombreTarjeta: [null],
+      restriccionCredito: [null],
     });
   }
   newTipoTarjeta() {

@@ -29,16 +29,16 @@ listClientes: clientes[] = [];
     this.list();
 
     this.formClientes = this.formBuilder.group({
-      codCliente: ['', Validators.required],
-      usuario: [''],
-      primerNombre: [''],
-      segundoNombre: [''],
-      primerApellido: [''],
-      segundoApellido: [''],
-      telefono: [''],
-      direccion: [''],
-      correo: [''],
-      paisResidencia: [''],
+      codCliente: [null],
+      usuario: [null],
+      primerNombre: [null],
+      segundoNombre: [null],
+      primerApellido: [null],
+      segundoApellido: [null],
+      telefono: [null],
+      direccion: [null],
+      correo: [null],
+      paisResidencia: [null],
     });
   }
 
